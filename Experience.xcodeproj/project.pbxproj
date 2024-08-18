@@ -12,6 +12,7 @@
 		9F1A74F92C68E3C70057661E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F1A74F82C68E3C70057661E /* Assets.xcassets */; };
 		9F1A74FD2C68E3C70057661E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F1A74FC2C68E3C70057661E /* Preview Assets.xcassets */; };
 		9F91A0AF2C6E3DCA009D7624 /* PaytoneOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F91A0AE2C6E3DB8009D7624 /* PaytoneOne-Regular.ttf */; };
+		9FE4F0CF2C72351800E9E4AD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9FE4F0CE2C72351800E9E4AD /* README.md */; };
 		9FE788392C71333800C882AA /* TabPageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE788382C71333800C882AA /* TabPageModel.swift */; };
 		9FE7883C2C7133C300C882AA /* TabPageProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE7883B2C7133C300C882AA /* TabPageProperties.swift */; };
 		9FE7883E2C71342600C882AA /* SmileyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE7883D2C71342600C882AA /* SmileyModel.swift */; };
@@ -26,6 +27,7 @@
 		9F1A74FC2C68E3C70057661E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9F91A0AE2C6E3DB8009D7624 /* PaytoneOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PaytoneOne-Regular.ttf"; sourceTree = "<group>"; };
 		9FC7EF3A2C6D0CFA002E55DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9FE4F0CE2C72351800E9E4AD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9FE788382C71333800C882AA /* TabPageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPageModel.swift; sourceTree = "<group>"; };
 		9FE7883B2C7133C300C882AA /* TabPageProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPageProperties.swift; sourceTree = "<group>"; };
 		9FE7883D2C71342600C882AA /* SmileyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileyModel.swift; sourceTree = "<group>"; };
@@ -45,6 +47,7 @@
 		9F1A74E82C68E3C60057661E = {
 			isa = PBXGroup;
 			children = (
+				9FE4F0CE2C72351800E9E4AD /* README.md */,
 				9F1A74F32C68E3C60057661E /* Experience */,
 				9F1A74F22C68E3C60057661E /* Products */,
 			);
@@ -167,6 +170,7 @@
 			files = (
 				9F91A0AF2C6E3DCA009D7624 /* PaytoneOne-Regular.ttf in Resources */,
 				9F1A74FD2C68E3C70057661E /* Preview Assets.xcassets in Resources */,
+				9FE4F0CF2C72351800E9E4AD /* README.md in Resources */,
 				9F1A74F92C68E3C70057661E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
