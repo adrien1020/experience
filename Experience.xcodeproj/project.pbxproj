@@ -11,6 +11,10 @@
 		9F1A74F72C68E3C60057661E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A74F62C68E3C60057661E /* ContentView.swift */; };
 		9F1A74F92C68E3C70057661E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F1A74F82C68E3C70057661E /* Assets.xcassets */; };
 		9F1A74FD2C68E3C70057661E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F1A74FC2C68E3C70057661E /* Preview Assets.xcassets */; };
+		9F91A0AF2C6E3DCA009D7624 /* PaytoneOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F91A0AE2C6E3DB8009D7624 /* PaytoneOne-Regular.ttf */; };
+		9FE788392C71333800C882AA /* TabPageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE788382C71333800C882AA /* TabPageModel.swift */; };
+		9FE7883C2C7133C300C882AA /* TabPageProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE7883B2C7133C300C882AA /* TabPageProperties.swift */; };
+		9FE7883E2C71342600C882AA /* SmileyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE7883D2C71342600C882AA /* SmileyModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,11 @@
 		9F1A74F82C68E3C70057661E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F1A74FA2C68E3C70057661E /* Experience.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Experience.entitlements; sourceTree = "<group>"; };
 		9F1A74FC2C68E3C70057661E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9F91A0AE2C6E3DB8009D7624 /* PaytoneOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PaytoneOne-Regular.ttf"; sourceTree = "<group>"; };
+		9FC7EF3A2C6D0CFA002E55DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9FE788382C71333800C882AA /* TabPageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPageModel.swift; sourceTree = "<group>"; };
+		9FE7883B2C7133C300C882AA /* TabPageProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPageProperties.swift; sourceTree = "<group>"; };
+		9FE7883D2C71342600C882AA /* SmileyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileyModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +61,10 @@
 		9F1A74F32C68E3C60057661E /* Experience */ = {
 			isa = PBXGroup;
 			children = (
+				9F91A0A82C6E39D2009D7624 /* Fonts */,
+				9FE7883A2C7133AA00C882AA /* ViewModel */,
+				9FE788372C71331A00C882AA /* Models */,
+				9FC7EF3A2C6D0CFA002E55DB /* Info.plist */,
 				9F1A74F42C68E3C60057661E /* ExperienceApp.swift */,
 				9F1A74F62C68E3C60057661E /* ContentView.swift */,
 				9F1A74F82C68E3C70057661E /* Assets.xcassets */,
@@ -67,6 +80,31 @@
 				9F1A74FC2C68E3C70057661E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9F91A0A82C6E39D2009D7624 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9F91A0AE2C6E3DB8009D7624 /* PaytoneOne-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		9FE788372C71331A00C882AA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9FE788382C71333800C882AA /* TabPageModel.swift */,
+				9FE7883D2C71342600C882AA /* SmileyModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9FE7883A2C7133AA00C882AA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9FE7883B2C7133C300C882AA /* TabPageProperties.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +165,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F91A0AF2C6E3DCA009D7624 /* PaytoneOne-Regular.ttf in Resources */,
 				9F1A74FD2C68E3C70057661E /* Preview Assets.xcassets in Resources */,
 				9F1A74F92C68E3C70057661E /* Assets.xcassets in Resources */,
 			);
@@ -139,6 +178,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FE788392C71333800C882AA /* TabPageModel.swift in Sources */,
+				9FE7883C2C7133C300C882AA /* TabPageProperties.swift in Sources */,
+				9FE7883E2C71342600C882AA /* SmileyModel.swift in Sources */,
 				9F1A74F72C68E3C60057661E /* ContentView.swift in Sources */,
 				9F1A74F52C68E3C60057661E /* ExperienceApp.swift in Sources */,
 			);
@@ -274,6 +316,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Experience/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -282,8 +325,7 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -312,6 +354,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Experience/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -320,8 +363,7 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
